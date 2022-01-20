@@ -1,3 +1,4 @@
+/* common style */
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -5,6 +6,7 @@ body{
 section{
     margin-bottom: 100px;
 }
+/* header style */
 .header-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -20,6 +22,7 @@ section{
 h1.user-name span{
     color: rgb(211, 117, 133);
 }
+/* flex display */
 .flexible-container{
     display: flex;
     justify-content: center;
@@ -38,4 +41,33 @@ h1.user-name span{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+}
+/* Experience-section style */
+.Experience-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.Experience-section h4{
+    color: rgb(245, 143, 9);
+}
+.Experience-section .half-item {
+    box-shadow: 5px 5px 5px 5px #888888;
+    width: 45%;
+    margin: 76px;
+    padding: 30px 30px;
+}
+.half-item.full-stack{
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(105, 211, 132), rgb(250, 172, 3));
+    border-image-slice: 1;
+}
+
+.half-item.baby-web{
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(22, 22, 236), rgb(221, 77, 77));
+    border-image-slice: 1;
+}
+.footer-section{
+    text-align: center;
 }
